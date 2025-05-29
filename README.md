@@ -2,21 +2,21 @@
 
 A modern web application to manage bus fleet operations such as logging trips, managing buses, routes, passengers, and tracking distances. This app is designed for drivers and administrators to easily record and monitor bus operations.
 
-🌐 [Live Demo](https://stalwart-griffin-7d188f.netlify.app/login)
+🌐 [Live Demo](https://stalwart-griffin-7d188f.netlify.app/)
 
 ## 📸 Screenshots
 
 ### Dashboard
 Displays overall summary: total trips, total distance, active buses, and average trip time.
-![Dashboard](./screenshots/dashboard.png)
+![Dashboard](./screenshots/dashboard.jpg)
 
 ### New Trip Entry
 Form to log a new trip with all necessary details including purpose, locations, times, and passenger count.
-![New Entry](./screenshots/new-entry.png)
+![New Entry](./screenshots/new-entry.jpg)
 
 ### View Trip Entries
 Searchable and filterable list of all trip logs, exportable as well.
-![View Entries](./screenshots/view-entries.png)
+![View Entries](./screenshots/view-entries.jpg)
 
 ## 🚀 Features
 
@@ -43,5 +43,20 @@ Searchable and filterable list of all trip logs, exportable as well.
 - **CSS** (2.9%)
 - **HTML** (0.6%)
 
-## 📂 Project Structure (Frontend)
+
+## ⚙️ Setup Instructions
+
+### 1. Clone the repository
+
+```bash
+git clone https://github.com/prafulla2121/Bus-fleet-managemant.git
+cd Bus-fleet-managemant
+
+npm install
+# or
+yarn install
+
+VITE_SUPABASE_URL=your-supabase-url
+VITE_SUPABASE_ANON_KEY=your-supabase-anon-key
+
 
